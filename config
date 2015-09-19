@@ -1,0 +1,8 @@
+Host github.com
+	IdentityFile ~/.ssh/id_rsa.github
+
+Host *dynamic-dns.net
+	IdentityFile ~/.ssh/id_rsa.github
+
+Host *
+	IdentityFile ~/.ssh/id_rsa.game
